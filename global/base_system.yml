@@ -1,0 +1,5 @@
+---
+# comment1
+ntp_servers:
+        - host: 194.58.202.20
+        - host: 194.58.202.148
