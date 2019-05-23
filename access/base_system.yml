@@ -2,3 +2,5 @@
 # comment5
 ntp_servers:
         - host: 194.58.202.20
+radius_servers:
+        - host: 10.100.2.3
