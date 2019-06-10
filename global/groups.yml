@@ -1,0 +1,8 @@
+---
+groups:
+  group1:
+    regexp:
+      - '.*'
+  group2:
+    regexp:
+      - '.*'
