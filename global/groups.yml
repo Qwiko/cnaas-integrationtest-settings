@@ -1,0 +1,4 @@
+groups:
+  - group:
+      name: 'ALL_DEVICES'
+      regex: '.*'
