@@ -1,0 +1,4 @@
+---
+interfaces:
+  - name: Ethernet1
+    class: downlink
