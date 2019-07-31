@@ -1,4 +1,4 @@
 ---
 interfaces:
   - name: Ethernet1
-    class: downlink
+    ifclass: downlink
