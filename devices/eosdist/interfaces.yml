@@ -2,7 +2,7 @@
 interfaces:
   - name: Ethernet1
     ifclass: custom
-    config: >
+    config: |-
       no switchport
       ip address 10.100.2.101/24
       no lldp transmit
