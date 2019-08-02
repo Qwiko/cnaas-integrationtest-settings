@@ -1,4 +1,11 @@
 ---
 interfaces:
   - name: Ethernet1
+    ifclass: custom
+    config: >
+      no switchport
+      ip address 10.100.2.101/24
+      no lldp transmit
+      no lldp receive
+  - name: Ethernet2
     ifclass: downlink
