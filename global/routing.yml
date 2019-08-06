@@ -5,4 +5,4 @@ vrfs:
     group: ALL_DEVICES
   - name: infra
     rd: 1:2
-    group: ALL_DEVICES
+    group: DIST
