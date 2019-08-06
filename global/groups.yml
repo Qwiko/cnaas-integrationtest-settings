@@ -1,7 +1,7 @@
 groups:
   - group:
-    name: 'ALL_DEVICES'
-    regex: '.*'
+      name: 'ALL_DEVICES'
+      regex: '.*'
   - group:
-    name: 'DIST'
-    regex: '.*dist.*'
+      name: 'DIST'
+      regex: '.*dist.*'
