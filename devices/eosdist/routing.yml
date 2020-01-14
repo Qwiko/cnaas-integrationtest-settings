@@ -1,0 +1,16 @@
+extroute_static:
+  vrfs:
+    - name: MGMT
+      ipv4:
+        - destination: 0.0.0.0/0
+          nexthop: 10.0.0.1
+          interface: Null
+          name: "my_route"
+      ipv6:
+        - destination: ::/0
+          nexthop: fe80::2
+          interface: Ethernet3
+extroute_ospfv3:
+  vrfs:
+    - name: STUDENT
+      ipv4_redist_routefilter: MYMAP
