@@ -7,7 +7,11 @@ evpn_spines:
   - hostname: eosdist
   - hostname: eosdist2
 vrfs:
-  - name: STUDENTS
-    rd: "1:3"
+  - name: STUDENT
+    vrf_id: 100
     groups:
       - DIST
+#extroute_ospfv3:
+#  vrfs:
+#    - name: STUDENTS
+#comment1
