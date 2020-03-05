@@ -14,3 +14,12 @@ extroute_ospfv3:
   vrfs:
     - name: STUDENT
       ipv4_redist_routefilter: MYMAP
+extroute_bgp:
+  vrfs:
+    - name: STUDENT
+      local_as: 64551
+      neighbor_v4:
+        - peer_ipv4: 10.131.11.12
+          peer_as: 64521
+          route_map_in: STUDENT-vas-in
+          route_map_out: STUDENT-vas-out
