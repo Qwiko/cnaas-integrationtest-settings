@@ -3,5 +3,8 @@ groups:
       name: 'ALL_DEVICES'
       regex: '.*'
   - group:
+      name: 'ALL'
+      regex: '.*'
+  - group:
       name: 'DIST'
       regex: '.*dist.*'
