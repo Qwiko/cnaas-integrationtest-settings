@@ -7,6 +7,10 @@ evpn_spines:
   - hostname: eosdist
   - hostname: eosdist2
 vrfs:
+  - name: MGMT
+    vrf_id: 1
+    groups:
+      - ALL
   - name: STUDENT
     vrf_id: 100
     groups:
