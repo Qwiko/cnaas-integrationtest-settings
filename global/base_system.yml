@@ -1,11 +1,7 @@
 ---
 # comment1
 ntp_servers:
-        - host: 194.58.202.20
-        - host: 194.58.202.148
-nav_servers:
-        - host: 10.100.3.3
-groups:
-  - group:
-      name: 'ALL_DEVICES'
-      regex: '.*'
+  - host: 194.58.202.20
+  - host: 194.58.202.148
+snmp_servers:
+  - host: 10.100.3.3

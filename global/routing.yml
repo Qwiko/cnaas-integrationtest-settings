@@ -3,7 +3,7 @@ underlay:
   infra_link_net: 10.198.0.0/16
   infra_lo_net: 10.199.0.0/16
   mgmt_lo_net: 10.100.3.0/24
-evpn_spines:
+evpn_peers:
   - hostname: eosdist
   - hostname: eosdist2
 vrfs:
