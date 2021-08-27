@@ -17,6 +17,8 @@ vrfs:
       - "1:5555"
     export_route_targets:
       - "1:6666"
+    import_policy: "test_in"
+    export_policy: "test_out"
     groups:
       - DIST
 #extroute_ospfv3:
