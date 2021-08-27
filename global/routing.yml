@@ -13,6 +13,10 @@ vrfs:
       - ALL
   - name: STUDENT
     vrf_id: 100
+    import_route_targets:
+      - "1:5555"
+    export_route_targets:
+      - "1:6666"
     groups:
       - DIST
 #extroute_ospfv3:
