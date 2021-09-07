@@ -10,6 +10,8 @@ interfaces:
       no lldp receive
   - name: Ethernet2
     ifclass: downlink
+  - name: Ethernet3
+    ifclass: port_template_hypervisor
   - name: Vlan1
     ifclass: custom
     config: |-
