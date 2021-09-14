@@ -16,6 +16,7 @@ vxlans:
     ipv4_gw: 10.201.1.1/24
     dhcp_relays: []
     mtu: 9100
+    tags: ["multicast"]
     devices:
       - eosaccess
   student3:
