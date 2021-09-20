@@ -33,5 +33,7 @@ vxlans:
     vlan_id: 503
     vlan_name: STUDENT34
     ipv4_gw: 10.203.2.1/24
+    groups:
+      - DIST_ODD
     devices:
       - eosdist2

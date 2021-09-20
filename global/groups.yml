@@ -9,3 +9,6 @@ groups:
   - group:
       name: 'DIST'
       regex: '.*dist.*'
+  - group:
+      name: 'DIST_ODD'
+      regex: '.*dist[13579]'
