@@ -14,6 +14,9 @@ vxlans:
     vlan_id: 501
     vlan_name: STUDENT2
     ipv4_gw: 10.201.1.1/24
+    ipv4_secondaries:
+      - 172.16.1.1/24
+    ipv6_gw: fe80::1/64
     dhcp_relays: []
     mtu: 9100
     tags: ["multicast"]
