@@ -16,6 +16,7 @@ groups:
       name: 'E1'
       regex: 'eosdist1$'
       group_priority: 100
+      templates_branch: "grouptest1"
   - group:
       name: 'E'
       regex: 'eosdist.*'
