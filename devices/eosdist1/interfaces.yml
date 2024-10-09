@@ -14,7 +14,7 @@ interfaces:
     ifclass: port_template_hypervisor
     description: "Testing port-template"
     untagged_vlan: 10
-    tagged_vlan_list: [10, 20]
+    tagged_vlan_list: [10, 20, "30-40"]
     aggregate_id: -1
   - name: Vlan1
     ifclass: custom
