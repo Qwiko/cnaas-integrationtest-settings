@@ -10,3 +10,6 @@ interfaces:
       no lldp receive
   - name: Ethernet2
     ifclass: downlink
+  - name: Ethernet3
+    ifclass: mirror
+    description: "Testing port-template mirror"
