@@ -24,6 +24,14 @@ vrfs:
     import_policy: "import-map"
     export_policy: "export-map"
     groups: []
+prefix_sets:
+  "DEFAULT":
+    mode: ipv4
+    prefixes:
+      - prefix: 0.0.0.0/0
+        masklength_range: 0
+    groups:
+      - "TEST_GROUP"
 #extroute_ospfv3:
 #  vrfs:
 #    - name: STUDENTS

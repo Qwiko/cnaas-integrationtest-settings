@@ -21,3 +21,7 @@ groups:
       name: 'E'
       regex: 'eosdist.*'
       group_priority: 99
+  - group:
+      name: 'TEST_GROUP'
+      regex: 'testgroup_dev.*'
+      group_priority: 98

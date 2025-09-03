@@ -1,0 +1,7 @@
+---
+prefix_sets:
+  "infra-cpe-loopbacks":
+    mode: ipv4
+    prefixes:
+    - prefix: 86.105.113.203/26
+      masklength_range: 32-32
