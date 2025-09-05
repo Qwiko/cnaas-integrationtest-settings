@@ -32,6 +32,13 @@ prefix_sets:
         masklength_range: 0
     groups:
       - "TEST_GROUP"
+routing_policies:
+  "allow_default":
+    statements:
+      - action: "accept"
+        conditions:
+          - match_type: "ipv4 prefix-set"
+            match_target: "DEFAULT"
 #extroute_ospfv3:
 #  vrfs:
 #    - name: STUDENTS
