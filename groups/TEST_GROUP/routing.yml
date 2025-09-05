@@ -5,3 +5,10 @@ prefix_sets:
     prefixes:
     - prefix: 86.105.113.203/26
       masklength_range: 32-32
+routing_policies:
+  "allow_infra_loopback":
+    statements:
+      - action: "accept"
+        conditions:
+          - match_type: "ipv4 prefix-set"
+            match_target: "infra-cpe-loopbacks"
