@@ -23,5 +23,5 @@ groups:
       group_priority: 99
   - group:
       name: 'TEST_GROUP'
-      regex: 'testgroup_dev.*'
+      regex: 'testgroup.*'
       group_priority: 98
