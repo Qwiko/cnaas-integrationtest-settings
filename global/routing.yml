@@ -39,6 +39,7 @@ routing_policies:
         conditions:
           - match_type: "ipv4 prefix-set"
             match_target: "DEFAULT"
+external_routing_policies: ["STUDENT-vas-in", "STUDENT-vas-out"]
 #extroute_ospfv3:
 #  vrfs:
 #    - name: STUDENTS

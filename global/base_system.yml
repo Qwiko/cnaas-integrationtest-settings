@@ -9,5 +9,3 @@ dot1x_fail_vlan: 13
 organization_name: "sunet"
 domain_name: "cnmgmt.sunet.se"
 vxlan_vni_range: "100000-999999"
-external_routing_policies: ["STUDENT-vas-in", "STUDENT-vas-out"]
-
